@@ -57,6 +57,6 @@ Você pode encontrar o código-fonte e sua documentação [aqui](codigo-fonte/RE
 
 # Apresentação
 
-Você pode encontrar uma apresentação detalhada do projeto [aqui](apresentacao/README.md).
+Você pode encontrar uma apresentação detalhada do projeto [aqui](apresentacao/README.md) e [aqui](apresentacao).
 
 </div>

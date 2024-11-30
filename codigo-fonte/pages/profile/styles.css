@@ -1,0 +1,96 @@
+/* PROFILE PAGE */
+
+.avatar {
+  margin-bottom: 8px;
+  width: calc(120px - 40px);
+  height: -50px;
+}
+
+.avatar > img {
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  background-color: white;
+}
+
+.avatar > button {
+  transition: all 0.1s ease-in-out;
+}
+
+.avatar > button:hover > svg > path {
+  transition: all 0.1s ease-in-out;
+}
+
+.avatar > button:hover {
+  background-color: #727272;
+}
+
+.avatar > button:hover > svg > path {
+  fill: #fff;
+}
+
+h5.user-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+div.comparison-searchbar {
+  margin-block: 74px 72px;
+}
+
+div.saved-comparison {
+  overflow: hidden;
+  border: 2px solid #dddddd;
+  border-radius: 30px;
+}
+
+div.saved-comparison > ul > li {
+  border: none;
+  border-bottom: 1px solid #dddddd;
+
+  padding-block: 20px;
+  align-items: center;
+
+  transition: all 0.2s ease-in;
+}
+
+div.saved-comparison > ul > li:last-child {
+  border-bottom: none;
+}
+
+div.saved-comparison > ul > li:hover {
+  background-color: #dddddd;
+}
+
+div.saved-comparison > ul > li > span {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+div.saved-comparison > ul > li > div > button {
+  min-height: 40px;
+  min-width: 40px;
+
+  padding: 0;
+  border: 2px solid #385e99;
+  background-color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+div.saved-comparison > ul > li > div > button:last-child > svg {
+
+  transform: scale(1.5) translate(2px) translateY(-1px)
+}
+
+div.saved-comparison > ul > li:hover > div > button {
+  background-color: #385e99;
+}
+
+div.saved-comparison > ul > li:hover > div > button > svg > path {
+  fill: white;
+}
+
+div.saved-comparison > ul > li > div > button > svg > path {
+  transition: fill 0.2s ease-in-out;
+}

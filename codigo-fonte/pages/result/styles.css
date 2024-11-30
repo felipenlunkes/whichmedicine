@@ -1,0 +1,58 @@
+.img-medicamento {
+  height: 200px;
+}
+
+.vs {
+  font-weight: 700;
+}
+
+.buttons {
+  overflow: hidden;
+  padding: 10px;
+}
+
+.buttons > button {
+  background-color: #fff;
+  color: #385e99;
+  border: 2px solid #385e99;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.buttons > button:hover {
+  background-color: #385e99;
+  color: #fff;
+}
+
+.buttons > button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#shareModal .modal-dialog {
+  max-width: 300px !important;
+  margin: 10% auto;
+}
+
+
+#medicationImage1,
+#medicationImage2 {
+  max-height: 281px !important;
+  max-width: 281px !important;
+}
+
+#remedio-1,
+#nome-farmacologico-1,
+#classe-medicamento-1,
+#remedio-2,
+#nome-farmacologico-2,
+#classe-medicamento-2 {
+  max-width: 281px !important;
+}

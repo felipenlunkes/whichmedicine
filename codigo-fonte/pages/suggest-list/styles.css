@@ -1,0 +1,300 @@
+* {
+  --gray-100: #ddd;
+}
+
+body,
+p {
+  margin: 0 !important;
+  font-family: 'Lato', Arial, sans-serif !important;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 64px;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 56px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.text-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+small {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+section.breadcrumb {
+  padding-block: 16px 90px;
+}
+
+.breadcrumbs > span > a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.text-lg {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.text-btn {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.text-btn-sm {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.text-btn-lg {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 2%;
+}
+
+.text-caption {
+  font-size: 12px;
+}
+
+.text-nav-inactive {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.text-nav-active {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+header {
+  height: 88px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.bg-light-grey {
+  background-color: #f3f3f3;
+}
+
+.bg-light-blue {
+  background-color: #f0f4f8 !important;
+}
+
+.bg-secondary-blue {
+  background-color: #3d637a;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.primary-blue {
+  color: #385e99;
+}
+
+.primary-blue-lt {
+  color: #4c72b2;
+}
+
+.border-radius-30 {
+  border-radius: 30px !important;
+}
+
+.nav-active {
+  color: #385e99;
+  border-bottom: 2px solid #385e99;
+  padding-bottom: 1px !important;
+}
+
+.list-style {
+  width: 75% !important;
+}
+
+.accordionStyles {
+  border-radius: 30px;
+  background-color: #fff;
+  margin-inline: auto;
+  margin-bottom: 16px;
+}
+
+.accordionItem > h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.accordionItem > h2 > button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+}
+
+.accordionStyles {
+  border-radius: 30px;
+  background-color: #fff;
+  margin-inline: auto;
+}
+
+.accordionStyles > h2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.accordionItem > div {
+  padding: 16px 40px 0 40px;
+}
+
+.accordionItem > div {
+  transform: translateY(-20px);
+}
+
+.accordionBody > p {
+  display: block;
+
+  width: 100%;
+  border-top: 1px solid var(--gray-100);
+  padding-block: 16px;
+
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.accordionBody > textarea {
+  width: 100%;
+  min-height: 176px;
+  border-radius: 30px;
+  padding: 16px;
+
+  margin-block: 32px;
+}
+
+.accordionBody > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+}
+
+.accordionBody > div > a,
+.accordionBody > div > button {
+  border: none;
+  border-radius: 100%;
+  background-color: transparent;
+
+  width: 50px;
+  height: 50px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+/* Botão vermelho */
+.accordionBody > div > button:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  border: 3px solid red;
+}
+
+.accordionBody > div > button:first-child:hover {
+  background-color: red;
+}
+
+.accordionBody > div > button:first-child:hover > svg > path {
+  fill: white;
+}
+
+/* Botão azul */
+.accordionBody > div > button:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  border: 3px solid #4c72b2;
+}
+.accordionBody > div > button:last-child:hover {
+  background-color: #4c72b2 !important;
+}
+
+.accordionBody > div > button:last-child:hover > svg > path {
+  fill: white;
+}
+
+footer {
+  color: #fff;
+  height: 96px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 480px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .inputs-comparacao > input {
+    width: 250px;
+  }
+
+  .list-style {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .list-style {
+    min-width: 100%;
+  }
+}

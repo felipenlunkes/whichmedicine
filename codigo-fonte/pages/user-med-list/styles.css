@@ -1,0 +1,136 @@
+.form-control {
+  border-radius: 30px !important;
+  padding-left: 40px !important;
+}
+
+.form-control::placeholder {
+  opacity: 0.8 !important;
+  font-size: 14px;
+}
+
+.search-input-icon-center {
+  position: absolute !important;
+  left: 15px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  font-size: 18px !important;
+  color: #d2d2d2 !important;
+}
+
+.accordionStyles {
+  border-radius: 30px;
+  background-color: #fff;
+  margin-inline: auto;
+  margin-bottom: 16px;
+}
+
+.accordionItem > h2 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.accordionItem > h2 > button {
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+}
+
+.accordionStyles {
+  border-radius: 30px;
+  background-color: #fff;
+  margin-inline: auto;
+}
+
+.accordionStyles > h2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.accordionItem > div {
+  padding: 16px 40px 0 40px;
+}
+
+.accordionItem > div {
+  transform: translateY(-20px);
+}
+
+.accordionBody > p {
+  display: block;
+  width: 100%;
+  border-block: 1px solid var(--gray-100);
+  padding-block: 16px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  user-select: none;
+}
+
+.accordionBody > p1 {
+  display: block;
+  width: 100%;
+  border-block: 1px solid var(--gray-100);
+  padding-block: 16px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  user-select: none;
+  font-weight: 600;
+}
+
+.accordionBody > textarea {
+  width: 100%;
+  min-height: 176px;
+  border-radius: 30px;
+  padding: 16px;
+  margin-block: 5px;
+  user-select: none;
+}
+
+.accordionBody > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+}
+
+.accordionBody > div > button {
+  border: none;
+  border-radius: 100%;
+  background-color: transparent;
+
+  width: 50px;
+  height: 50px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.accordionBody > div > button:first-child {
+  border: 3px solid red;
+}
+
+.accordionBody > div > button:first-child:hover {
+  background-color: red;
+}
+
+.accordionBody > div > button:first-child:hover > svg > path {
+  fill: white;
+}
+
+.accordionBody > div > button:last-child:hover {
+  background-color: #4c72b2;
+}
+
+.accordionBody > div > button:last-child:hover > svg > path {
+  fill: white;
+}
+
+.accordionBody > div > button:last-child {
+  border: 3px solid #4c72b2;
+}

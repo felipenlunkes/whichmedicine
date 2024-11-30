@@ -1,0 +1,39 @@
+.textarea-container > textarea {
+  min-height: 176px;
+  border-radius: 30px;
+  border: 1px solid #DDDDDD;
+  padding: 16px;
+  color: #727272;
+}
+
+.btn {
+  min-width: 200px !important;
+}
+
+.btn-primary {
+  background-color: #4c72b2 !important;
+}
+
+.btn-primary:hover {
+  background-color: #2a4b7e !important;
+  color: #ffffff !important;
+}
+
+.clear-icon {
+  right: 10px;
+  top: 70%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #727272;
+  opacity: 0.6;
+}
+
+.clear-icon:hover {
+  opacity: 1;
+}
+
+.imageInput {
+  cursor: pointer;
+  height: 30px;
+}

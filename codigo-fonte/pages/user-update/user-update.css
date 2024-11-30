@@ -1,0 +1,103 @@
+.form-container {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #f0f4f8;
+  margin: 50px auto;
+  display: flex;
+}
+
+.form-label {
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.form-control {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: white;
+  border: solid #d2d2d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.profile-pic > a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #868686;
+}
+
+.profile-pic span {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.btn-custom {
+  background-color: #4c72b2;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 10px 30px;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #2e4f63;
+}
+
+input,
+select {
+  border-radius: 50px !important;
+}
+
+.profile-container {
+  margin-right: 40px;
+}
+
+/* Janela modal */
+
+#modal-atualizar .modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 347px;     
+  height: 326px;     
+  border-radius: 25px;
+}
+
+#modal-erro .modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 347px;     
+  height: 326px;     
+  border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    margin: 0;
+    padding: 0;
+  }
+}

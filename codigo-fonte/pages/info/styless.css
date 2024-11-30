@@ -1,0 +1,33 @@
+.texto-lg {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.texto-lg-equipe {
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.nossa-equipe {
+    text-align: center;
+    font-size: 40px;
+}
+
+@media (max-width: 480px) {
+
+.texto-lg {
+    font-size: 18px;
+}
+
+.texto-lg-equipe {
+    font-size: 18px;
+}
+
+.nossa-equipe {
+    font-size: 30px;
+}
+
+}

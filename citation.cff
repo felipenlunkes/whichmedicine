@@ -1,0 +1,26 @@
+cff-version: 1.0.1
+message: "Aplicação de Comparação de Medicamentos"
+title: Which Medicine
+authors:
+  - family-names: Kanitar Castro
+    given-names: Ísis
+  - family-names: Fernandes Salviano
+    given-names: João Paulo 
+  - family-names: Pinheiro Novais 
+    given-names: Fernanda
+  - family-names: Nery Lunkes
+    given-names: Felipe Miguel 
+  - family-names: Marcelino Azevedo
+    given-names: Diovane
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: De Paiva Carvalho
+    given-names: Joyce Cristina
+keywords:
+  - "medicação"
+  - "remédio"
+  - "interação medicamentosa"
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t1-pmv-ads-2024-2-e1-whichmedicine
+license: BSD-3-CLAUSE
+version: 1.0.0
+date-released: 2024-11-24

@@ -1,0 +1,10 @@
+.backgroud-pill{
+    background-image:url(../../assets/blue_pills.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 0%;
+  }
+  
+form{
+  padding: 20px;
+}

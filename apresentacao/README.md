@@ -4,7 +4,8 @@
 
 Foi desenvolvida uma apresentação sobre o projeto, que pode ser conferida abaixo.
 
-Voce pode encontrar o PDF da apresentação [aqui](slides.pdf).
+Você pode encontrar o PDF da apresentação inicial do projeto [aqui](Apresentação%20inicial%20-%20Etapa%201.pdf).
+Já a apresentação final pode ser encontrada [aqui](Apresentação%20Projeto%20-%20SEMPEX.pdf).
 
 <div align="center">
 
@@ -76,10 +77,8 @@ A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a a
 > - resolução HD (720p) ou Full HD (1080p)
 > - formato mp4.
 
-[Adicione vídeo de apresentação.]
-
 -->
 
 ## Hospedagem
 
-[Adicione o endereço eletrônico público onde o site encontra-se hospedado.]
+O Which Medicine é uma aplicação web com deploy realizado pelo GitHub Pages e pode ser acessado [aqui](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t1-pmv-ads-2024-2-e1-whichmedicine/codigo-fonte/).

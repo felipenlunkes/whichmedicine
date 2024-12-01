@@ -13,7 +13,7 @@ O [`Which Medicine`](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-
 
 <hr>
 
-`Análise e Desenvolvimento de Sistemas`
+`Graduação em Análise e Desenvolvimento de Sistemas - Pontifícia Universidade Católica de Minas Gerais (PUC Minas)`
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End`
 
@@ -25,7 +25,7 @@ O [`Which Medicine`](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-
 
 * Diovane Marcelino Azevedo (**desenvolvimento**);
 * Felipe Miguel Nery Lunkes (**Project Owner**, **desenvolvimento**);
-* Fernanda Pinheiro Novais(**UX Lead**, **desenvolvimento**);
+* Fernanda Pinheiro Novais (**UX Lead**, **desenvolvimento**);
 * Isis Kanitar Castro (**desenvolvimento**);
 * João Paulo Fernandes Salviano (**desenvolvimento**).
 
@@ -51,7 +51,7 @@ Joyce Cristina de Paiva Carvalho
 
 O Which Medicine é uma aplicação web com deploy realizado pelo GitHub Pages e pode ser acessado [aqui](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t1-pmv-ads-2024-2-e1-whichmedicine/codigo-fonte/).
 
-# Código-Fonte
+# Código-fonte
 
 Você pode encontrar o código-fonte e sua documentação [aqui](codigo-fonte/README.md).
 

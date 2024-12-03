@@ -51,9 +51,27 @@ Joyce Cristina de Paiva Carvalho
 <li><a href="documentos/09-Referências.md"> Referências Bibliográficas</a></li>
 </ol>
 
-# Hospedagem
+<hr>
 
-O Which Medicine é uma aplicação web com deploy realizado pelo GitHub Pages e pode ser acessado [aqui](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t1-pmv-ads-2024-2-e1-whichmedicine/codigo-fonte/).
+# Como executar a aplicação?
+
+Esta versão do `Which Medicine` **não depende** de backend ou qualquer outra infraestrutura para ser executada.
+
+## Executar localmente
+
+### Diretamente, via navegador
+
+Para executar a aplicação localmente, basta iniciar o arquivo `index.html`, disponível [aqui](codigo-fonte/index.html), com a ajuda do navegador de sua preferência.
+
+> Aviso! A execução desta forma pode levar a errors de CORS.
+
+### Utilização de servidor web local
+
+Você pode utilizar a extensão `Live Preview (Microsoft)` do Visual Studio Code para executar um servidor web local para a aplicação, evitando erros de CORS e facilitando o desenvolvimento ou debug da aplicação. A extensão pode ser encontrada [aqui](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server). A aplicação será disponibilizada e estará acessível no endereço `http://127.0.0.1:3000/codigo-fonte/` à partir do navegador de sua preferência. Qualquer alteração em arquivos da aplicação refletirá automaticamente na aplicação em execução no navegador.
+
+### Realizando deploy e hospedagem com o GitHub Pages
+
+O Which Medicine é uma aplicação web cujo deploy pode realizado pelo GitHub Pages.
 
 # Código-fonte
 

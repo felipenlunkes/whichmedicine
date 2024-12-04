@@ -63,7 +63,7 @@ Esta versão do `Which Medicine` **não depende** de backend ou qualquer outra i
 
 Para executar a aplicação localmente, basta iniciar o arquivo `index.html`, disponível [aqui](codigo-fonte/index.html), com a ajuda do navegador de sua preferência.
 
-> Aviso! A execução desta forma pode levar a errors de CORS.
+> Aviso! A execução desta forma pode levar a errors de CORS (Cross-Origin Resource Sharing).
 
 ### Utilização de servidor web local
 

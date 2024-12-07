@@ -59,6 +59,10 @@ Esta versão do `Which Medicine` **não depende** de backend ou qualquer outra i
 
 ## Executar localmente
 
+### Hospedado
+
+O `Which Medicine` se encontra hospedado e pode ser acessado [aqui](https://felipenlunkes.github.io/whichmedicine/codigo-fonte/).
+
 ### Diretamente, via navegador
 
 Para executar a aplicação localmente, basta iniciar o arquivo `index.html`, disponível [aqui](codigo-fonte/index.html), com a ajuda do navegador de sua preferência.
@@ -79,6 +83,10 @@ Você pode encontrar o código-fonte e sua documentação [aqui](codigo-fonte/RE
 
 # Apresentação
 
-Você pode encontrar uma apresentação detalhada do projeto [aqui](apresentacao/README.md) e [aqui](apresentacao).
+Você pode encontrar a documentação de apresentação do projeto [aqui](apresentacao/README.md).
+
+Abaixo, você pode encontrar o vídeo de apresentação do projeto.
+
+https://github.com/user-attachments/assets/5a80a365-b102-452f-937c-e872d96e8324
 
 </div>

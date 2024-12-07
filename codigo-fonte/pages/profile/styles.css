@@ -94,3 +94,26 @@ div.saved-comparison > ul > li:hover > div > button > svg > path {
 div.saved-comparison > ul > li > div > button > svg > path {
   transition: fill 0.2s ease-in-out;
 }
+
+.botao-comparar-container {
+  display: inline-block !important;
+  width: fit-content;
+}
+
+.botao-comparacao {
+  width: 100%;
+}
+
+.botao-sugestao {
+  width: fit-content;
+  background: #4c72b2;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all .2s ease-in-out;
+}
+
+.botao-sugestao:hover {
+  background: #2a4b7e;
+  cursor: pointer;
+  border-radius: 50px;
+}

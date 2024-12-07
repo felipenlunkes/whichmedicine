@@ -98,8 +98,8 @@ Tabela 4: requisitos funcionais do projeto.
 | RF-02 |A aplicação deve permitir comparar dois medicamentos em relação aos seus compostos.|**Alta**|
 | RF-03 |A aplicação deve exibir a aplicação de cada uma das medicações informadas pelo usuário.|**Média**|
 | RF-04 |A aplicação deve identificar se há interação ou não entre medicações inseridas pelo usuário.|**Alta**|
-| RF-05 |A aplicação deve compartilhar informações sobre uma medicação via redes sociais e e-mail.|**Baixa**|
-| RF-06 |A aplicação  deve permitir a alteração e adição de dados para o perfil administrador.|**Alta**|
+| RF-05 |A aplicação deve permitir compartilhar as interações medicamentosas.|**Baixa**|
+| RF-06 |A aplicação deve permitir a alteração e adição de dados para o perfil administrador.|**Alta**|
 | RF-07 |A aplicação deve permitir o login de administrador e login de usuário.|**Alta**|
 | RF-08 |A aplicação deve permitir a criação de usuário inserindo data de nascimento e gênero.|**Alta**|
 | RF-09 |A aplicação deve permitir que o perfil administrador insira os efeitos adversos e esperados junto às medicações.|**Alta**|

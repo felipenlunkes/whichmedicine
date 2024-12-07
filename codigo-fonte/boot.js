@@ -400,60 +400,70 @@ const dadosIniciaisUserSugestions = {
       nomeFarmacologico: 'Fluoxetina',
       nomeComercial: 'Prozac',
       dataSolicitacao: '1731639134',
+      descricao: 'Medicamento muito usado para ansiedade e depressão. Importante verificar interações.',
     },
     {
       id: 2,
       nomeFarmacologico: 'Sertralina',
       nomeComercial: 'Zoloft',
       dataSolicitacao: '1731639267',
+      descricao: 'Muitas prescrições atualmente incluem este antidepressivo.',
     },
     {
       id: 3,
       nomeFarmacologico: 'Risperidona',
       nomeComercial: 'Risperdal',
       dataSolicitacao: '1731639348',
+      descricao: 'Indicado para transtornos psiquiátricos, relevante para interações.',
     },
     {
       id: 4,
       nomeFarmacologico: 'Amitriptilina',
       nomeComercial: 'Amitriptilina',
       dataSolicitacao: '1731639423',
+      descricao: 'Prescrito para dor crônica, precisa de atenção às interações.',
     },
     {
       id: 5,
       nomeFarmacologico: 'Topiramato',
       nomeComercial: 'Topamax',
       dataSolicitacao: '1731639521',
+      descricao: 'Usado para enxaquecas e convulsões, suscetível a interações.',
     },
     {
       id: 6,
       nomeFarmacologico: 'Clonidina',
       nomeComercial: 'Catapres',
       dataSolicitacao: '1731639620',
+      descricao: 'Comum em hipertensão, pode interagir com outros anti-hipertensivos.',
     },
     {
       id: 7,
       nomeFarmacologico: 'Montelukaste',
       nomeComercial: 'Singulair',
       dataSolicitacao: '1731639742',
+      descricao: 'Muito prescrito para asma e rinite alérgica.',
     },
     {
       id: 8,
       nomeFarmacologico: 'Loratadina',
       nomeComercial: 'Claritin',
       dataSolicitacao: '1731639816',
+      descricao: 'Antialérgico amplamente utilizado, útil para interações com outros medicamentos.',
     },
     {
       id: 9,
       nomeFarmacologico: 'Esomeprazol',
       nomeComercial: 'Nexium',
       dataSolicitacao: '1731639919',
+      descricao: 'Inibidor de bomba de prótons, comum em prescrições gastrointestinais.',
     },
     {
       id: 10,
       nomeFarmacologico: 'Citrato de Sildenafila',
       nomeComercial: 'Viagra',
       dataSolicitacao: '1731640003',
+      descricao: 'Importante para verificar interações em pacientes cardíacos.',
     },
   ],
 };
@@ -618,10 +628,13 @@ async function initBaseNoticias() {
 
 
 // Popular a base inicial de dados, caso ela não exista
-initBaseUsuarios();
-
-initBaseMedicamentos().catch((error) => {
-  console.error('Error ao inicializar a base de medicamentos:', error);
+document.addEventListener('DOMContentLoaded', () => {
+  // Evitar que ocorra inicializacoes em duplicidade
+  initBaseUsuarios();
+  
+  initBaseMedicamentos().catch((error) => {
+    console.error('Error ao inicializar a base de medicamentos:', error);
+  });
+  initBaseSugestoes();
+  initBaseNoticias();
 });
-initBaseSugestoes();
-initBaseNoticias();

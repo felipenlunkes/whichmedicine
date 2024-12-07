@@ -1,6 +1,6 @@
 // Lista de sugestões
-const listaSugestoes = localStorage.getItem('db_sugestoes');
-const adicionadoMedList = localStorage.getItem('db_medicamentos');
+const listaSugestoes = localStorage.getItem("db_sugestoes");
+const adicionadoMedList = localStorage.getItem("db_medicamentos");
 let lista = JSON.parse(listaSugestoes);
 
 // Lista de medicamentos já cadastrados no localStorage.
@@ -9,35 +9,16 @@ let medLista = JSON.parse(adicionadoMedList).medicamentos;
 // Recebe os dados da lista de sugestões e renderiza no HTML.
 const renderListaSugestoes = () => {
   // Elemento pai para adicionar os items do accordion dentro deste elemento
-  const containerLista = document.getElementById('usrSugestAccordion');
+  const containerLista = document.getElementById("usrSugestAccordion");
 
   lista.sugestoes.map((listItem, index) => {
-    // Verifica se o elemento sugerido já está adicionado ao localStorage.
-    // A sugestão do medicamento "Zoloft" não irá ser renderizado.
-    let jaAdicionado = false;
-
-    medLista.map((medItem) => {
-      if (
-        medItem.nomeComercial === listItem.nomeComercial ||
-        medItem.nomeFarmacologico === listItem.nomeFarmacologico
-      ) {
-        jaAdicionado = true;
-
-        console.log('true');
-
-        apagarSugFunc(medItem.nomeComercial);
-      }
-    });
-
     // Se "true" cria um elemento dentro da div "usrSugestAccordion"
-    if (!jaAdicionado) {
-      const novoAccordionSugestao = document.createElement('div');
 
-      novoAccordionSugestao.classList.add('accordionItem', 'accordionStyles');
+    const novoAccordionSugestao = document.createElement("div");
 
-      console.log(listItem)
+    novoAccordionSugestao.classList.add("accordionItem", "accordionStyles");
 
-      novoAccordionSugestao.innerHTML = `
+    novoAccordionSugestao.innerHTML = `
         <h2>
           <button
             type="button"
@@ -64,6 +45,7 @@ const renderListaSugestoes = () => {
         >
           <div class="accordionBody">
             <p>${listItem.nomeFarmacologico}</p>
+            <textarea>${listItem.descricao}</textarea>
             <div>
               <button onclick="apagarSugFunc('${listItem.nomeComercial}')">
                 <svg width="20" height="26" viewBox="0 0 20 26" fill="none">
@@ -87,33 +69,33 @@ const renderListaSugestoes = () => {
         </div>
       `;
 
-      containerLista.append(novoAccordionSugestao);
-    } else {
-      return null;
-    }
+    containerLista.append(novoAccordionSugestao);
   });
 };
 
-renderListaSugestoes(listaSugestoes);
-
 function irCriarMedicacao(nomeComercial, nomeFarmacologico) {
-  window.location.href = `../adm-med-manage/adm-med-manage.html?nomeComercial=${nomeComercial}&nomeFarmacologico=${nomeFarmacologico}`
+  window.location.href = `../adm-med-manage/adm-med-manage.html?nomeComercial=${nomeComercial}&nomeFarmacologico=${nomeFarmacologico}`;
 }
 
 // Função para apagar uma sugestão
 // Recebe: nome da medicação sugerida
 // Retorno: void
 function apagarSugFunc(nomeMedSug) {
-  const containerLista = document.getElementById('usrSugestAccordion');
+  const containerLista = document.getElementById("usrSugestAccordion");
 
   lista.sugestoes.forEach((sugestao, index) => {
     if (nomeMedSug === sugestao.nomeComercial) {
       lista.sugestoes.splice(index, 1);
 
-      localStorage.setItem('db_sugestoes', JSON.stringify(lista));
+      localStorage.setItem("db_sugestoes", JSON.stringify(lista));
 
-      containerLista.innerHTML = '';
+      containerLista.innerHTML = "";
+      console.log(listaSugestoes);
       renderListaSugestoes(listaSugestoes);
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderListaSugestoes(lista);
+});

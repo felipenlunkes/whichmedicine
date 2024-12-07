@@ -3,7 +3,7 @@
 Foi desenvolvida uma apresentação sobre o projeto, que pode ser conferida abaixo.
 
 Você pode encontrar o PDF da apresentação inicial do projeto [aqui](Apresentação%20inicial%20-%20Etapa%201.pdf).
-Já a apresentação final pode ser encontrada [aqui](Apresentação%20Projeto%20-%20SEMPEX.pdf). Essa apresentação foi utilizada no III SEMPEX, realizado em 30/11/2024.
+Já a apresentação final, com a conclusão do projeto, pode ser encontrada [aqui](Apresentação%20Projeto%20-%20SEMPEX.pdf).
 
 ## Vídeo de apresentação
 

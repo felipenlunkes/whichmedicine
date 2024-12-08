@@ -7,27 +7,22 @@
 
 # Instruções de utilização
 
-<!--
-## Estratégia de Organização de Codificação 
-
-Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, sugerimos que o projeto seja estruturado de modo que cada aluno trabalhe com seus arquivos nas suas respectivas pastas, identificadas por nomes das suas respectivas telas. Por exemplo:
-- Pasta src (root do projeto): index.html, index.css, index.js - Desenvolvedora responsável: Aluna X.
-- Pasta src\clientes: clientes.html, clientes.css, clientes.js - Desenvolvedor responsável: Aluno Y.
-- Pasta src\funcionarios: funcionarios.html, funcionarios.css, funcionarios.js  - Desenvolvedora responsável: Aluna Z.
-
--->
-
 ## Hospedagem e acesso
 
-O Which Medicine é uma aplicação web desenvolvida em HTML, CSS e JavaScript e pode ser acessada [aqui](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t1-pmv-ads-2024-2-e1-whichmedicine/codigo-fonte/).
+### Hospedado
 
-## Histórico de versões
+O `Which Medicine` se encontra hospedado e pode ser acessado [aqui](https://felipenlunkes.github.io/whichmedicine/codigo-fonte/).
 
-* TO DO;
+### Diretamente, via navegador
 
-<!--
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado/Atualizado/Removido
-- Relação de artefatos ...
+Para executar a aplicação localmente, basta iniciar o arquivo `index.html`, disponível [aqui](codigo-fonte/index.html), com a ajuda do navegador de sua preferência.
 
--->
+> Aviso! A execução desta forma pode levar a errors de CORS (Cross-Origin Resource Sharing).
+
+### Utilização de servidor web local
+
+Você pode utilizar a extensão `Live Preview (Microsoft)` do Visual Studio Code para executar um servidor web local para a aplicação, evitando erros de CORS e facilitando o desenvolvimento ou debug da aplicação. A extensão pode ser encontrada [aqui](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server). A aplicação será disponibilizada e estará acessível no endereço `http://127.0.0.1:3000/codigo-fonte/` à partir do navegador de sua preferência. Qualquer alteração em arquivos da aplicação refletirá automaticamente na aplicação em execução no navegador.
+
+### Realizando deploy e hospedagem com o GitHub Pages
+
+O Which Medicine é uma aplicação web cujo deploy pode realizado pelo GitHub Pages.

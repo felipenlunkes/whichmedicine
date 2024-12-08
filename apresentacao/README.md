@@ -1,3 +1,10 @@
+<div align="center">
+
+![](/documentos/img/logo.png)
+**Sua saúde em segurança**
+
+</div>
+
 # Apresentação do Projeto
 
 Foi desenvolvida uma apresentação sobre o projeto, que pode ser conferida abaixo.

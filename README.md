@@ -67,7 +67,7 @@ O `Which Medicine` se encontra hospedado e pode ser acessado [aqui](https://feli
 
 Para executar a aplicação localmente, basta iniciar o arquivo `index.html`, disponível [aqui](codigo-fonte/index.html), com a ajuda do navegador de sua preferência.
 
-> Aviso! A execução desta forma pode levar a errors de CORS (Cross-Origin Resource Sharing).
+> Aviso! A execução desta forma pode levar a erros de CORS (Cross-Origin Resource Sharing).
 
 ### Utilização de servidor web local
 
@@ -75,7 +75,7 @@ Você pode utilizar a extensão `Live Preview (Microsoft)` do Visual Studio Code
 
 ### Realizando deploy e hospedagem com o GitHub Pages
 
-O Which Medicine é uma aplicação web cujo deploy pode realizado pelo GitHub Pages.
+O Which Medicine é uma aplicação web cujo deploy pode ser realizado pelo GitHub Pages.
 
 # Código-fonte
 

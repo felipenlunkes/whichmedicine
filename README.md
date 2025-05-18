@@ -9,7 +9,7 @@
 
 </div>
 
-O [`Which Medicine`](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t1-pmv-ads-2024-2-e1-whichmedicine/src/) é uma **aplicação web frontend** que visa proporcionar o acesso facilitado à informações relevantes sobre medicamentos, uma vez que há falta de informação ou dificuldade na compreensão de informações contidas em suas bulas a respeito das interações medicamentosas. O projeto pretende, também, diminuir os riscos relacionados à automedicação, um problema grave que vem aumentando nos últimos anos, possibilitando que os usuários possam utilizar os medicamentos com maior segurança. Desenvolvido utilizando **HTML**, **CSS (e Bootstrap)** e **JavaScript**.
+O `Which Medicine` é uma **aplicação web frontend** que visa proporcionar o acesso facilitado à informações relevantes sobre medicamentos, uma vez que há falta de informação ou dificuldade na compreensão de informações contidas em suas bulas a respeito das interações medicamentosas. O projeto pretende, também, diminuir os riscos relacionados à automedicação, um problema grave que vem aumentando nos últimos anos, possibilitando que os usuários possam utilizar os medicamentos com maior segurança. Desenvolvido utilizando **HTML**, **CSS (e Bootstrap)** e **JavaScript**.
 
 <hr>
 
